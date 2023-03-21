@@ -9,5 +9,4 @@ names(roulette_vector) <- days_vector
 poker_start <-poker_vector[c("Monday", "Tuesday", "Wednesday")] 
   
 # Calculate the average of the elements in poker_start
-avg <- mean(poker_start)
-avg
+mean(poker_start)
